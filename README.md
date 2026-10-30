@@ -3,7 +3,7 @@
 A slow server is rarely slow everywhere: one subsystem — the disks, the processor — saturates while the rest of the machine waits on it, and that one subsystem is the bottleneck. In 2001–2003, at HP, the author of this book worked on a web-based performance analyzer for ProLiant servers that detected exactly that, and his part of it was the page that decided what got watched at all: the Administration & Licensing page. From that one page an administrator saw the servers the manager knew about, set each server's monitoring preferences, and licensed servers — because an unlicensed server was not monitored, full stop. This proof of concept is a clean-room simulation of that behaviour: a fictional fleet, a license pool with the same rule the original shipped with (one free license bundled with the servers, more acquired separately), per-server monitoring preferences, a periodic sync of the licensed-server list to the manager, and a bottleneck analysis that only ever sees licensed, opted-in servers.
 
 Chapter 8 of *Ideas That Refused to Die* by Balasubramanian Natarajan (the HP ProLiant Performance Analyzer years, 2001–2003). The original description is the author's blog post: https://pbnsoft.blogspot.com/2010/05/hp-proliant-performance-analyzer-2002.html
-**Live demo:** coming with the book's Explore section.
+**Live demo:** https://muse.ai/s/proliant-performance-analyzer-admin-im6vxbxyxvopf2/oThdSzz1IryTeCpQB4topcNxsNSbc2NGNQiO0Pf-RGo
 
 ## What's inside
 
