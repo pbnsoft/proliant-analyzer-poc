@@ -23,3 +23,7 @@ Expected result: the fleet is discovered (6 fictional servers), 4 are licensed b
 
 - Every server, utilization figure, and manager in this repository is **fictional** and generated from seeded profiles for demonstration.
 - This is a **clean-room model** of behaviour described in a blog post. It contains no HP software, code, data, screenshots, or proprietary material; the original (a JavaScript page plus a Visual C++ 6.0 ActiveX/COM control talking to Compaq Insight Manager) is described in `docs/how-it-works.md`, not reproduced.
+
+---
+
+**The book:** This proof of concept accompanies Chapter 8 of *Ideas That Refused to Die* by Balasubramanian Natarajan — eight ideas rebuilt with working models and honest numbers. Kindle edition (pre-order; releases November 30, 2026): https://www.amazon.com/dp/B0HPX524ZH
